@@ -1,4 +1,4 @@
-$(document).ready(function(){/*
+$(document).ready(function(){
 	$('#registr-form').validate({
 		rules: {
 			name: {
@@ -30,7 +30,7 @@ $(document).ready(function(){/*
 				maxlength: "Минималное количество символов должно быть 20"
 			},
 		}
-	});	
+	});	/*
 
 
 	var open_modal = $('.open_modal');
@@ -86,14 +86,14 @@ $(document).ready(function(){/*
 		});
 		overlay.fadeOut(700);
 	});
-
+*/
 	$('.nav').on('click', 'a', function(event){
 		event.proventDefault;
 		var id = $(this).attr('href');
 		var top = $(id).offset().top;
 
 		$('body, html').animate({scrollTop: top},2000)
-	});
+	});/*
 
 	$(window).scroll(function(){
 

@@ -130,7 +130,7 @@ h5{
 	width: 100%;
 	height: auto;
 	display: block;
-}/*
+}
 .logos{
 	background: #f8f9fa;
 	padding: 40px 0;
@@ -336,7 +336,7 @@ h5{
 	padding: 23px 0;
 	margin: 12px 0 0 0;
 	cursor: pointer;
-}
+}/*
 .error[for="email"],
 .error[for="name"],
 .error[for="digits"]{
@@ -367,4 +367,4 @@ h5{
 	width: 100%;
 	height: 100%;
 	z-index: 1500;
-}
+}*/
